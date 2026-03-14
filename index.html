@@ -1,18 +1,39 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Happy Birthday</title>
+  <title>Happy Birthday</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 
-<body style="text-align:center; font-family:Arial; background:pink;">
+<body>
 
-<h1>Happy Birthday ❤️</h1>
+  <h1>Meri Pyari Si Jaan ❤️</h1>
+  <h2>Meri taraf se Happy Birthday 🎂🎉</h2>
 
-<p>Meri taraf se chota sa surprise 🎁</p>
+  <!-- Question Box -->
+  <div id="questionBox">
+    <p>Aap mujhe kitna pyar karti ho?</p>
+    <input type="text" id="answer" placeholder="Answer yahan likho">
+    <button onclick="checkAnswer()">Submit</button>
+  </div>
 
-<img src="https://media.giphy.com/media/3oz8xAFtqoOUUrsh7W/giphy.gif" width="300">
+  <!-- Gift Box -->
+  <div id="gift" style="display:none;">
+    <h1>Surprise! 🎁</h1>
+    <p>Hum saath hue <span id="years"></span> saal ❤️</p>
 
-<p>Love You ❤️</p>
+    <!-- Romantic Message -->
+    <p>Apko gift me kya chahiye? ❤️</p>
+    <p>Meray saath hamesha rehna, aur mera pyar har din aur zayda ho ✨💖</p>
 
+    <!-- Images Gallery -->
+    <div class="gallery">
+      <img src="images/F1.jpg" width="200">
+      <img src="images/F2.jpg" width="200">
+      <img src="images/F3.jpg" width="200">
+    </div>
+  </div>
+
+  <script src="script.js"></script>
 </body>
 </html>
