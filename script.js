@@ -6,17 +6,6 @@ function showGift() {
   questionBox.style.display = 'none';
 }
 
-function checkAnswer() {
-  const answer = document.getElementById('answer').value.trim().toLowerCase();
-
-  // Correct answer for the fun question
-  if (answer === 'zayda boht zayda sabsa zayda') {
-    showGift();
-  } else {
-    alert('Oops 😅 Try again! Pyar zayda hona chahiye ❤️');
-  }
-}
-
 // Calculate how many years you’ve been together
 function calculateYears() {
   const startDate = new Date('2022-01-01');
